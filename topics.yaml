@@ -1,0 +1,182 @@
+# Register: onderwerp -> skill -> contentbestand -> template.
+# Een nieuw onderwerp toevoegen = een skill-map plus een regel hier; de write-skill verandert niet.
+#
+# scope: organisatie | eindgebruikers | technisch, of een lijst daarvan voor een gedeeld onderwerp.
+# decks: organisatie | functioneel | technisch
+# applies_when: always, of "pad == event-storming" / "pad == functionele-invulling"
+
+- id: context
+  scope: [organisatie, eindgebruikers]
+  skill: discovery-context
+  content: content/context.md
+  template: templates/context.md
+  decks: [organisatie, functioneel]
+  applies_when: always
+
+- id: privacy-avg
+  scope: [organisatie, eindgebruikers]
+  skill: discovery-privacy-avg
+  content: content/privacy-avg.md
+  template: templates/privacy-avg.md
+  decks: [organisatie, functioneel]
+  applies_when: always
+
+- id: werkwijze
+  scope: [organisatie, eindgebruikers]
+  skill: discovery-werkwijze
+  content: content/werkwijze.md
+  template: templates/werkwijze.md
+  decks: [organisatie, functioneel]
+  applies_when: always
+
+- id: strategische-observaties
+  scope: organisatie
+  skill: discovery-strategische-observaties
+  content: content/strategische-observaties.md
+  template: templates/strategische-observaties.md
+  decks: [organisatie]
+  applies_when: always
+
+- id: doelen-organisatie
+  scope: organisatie
+  skill: discovery-doelen-organisatie
+  content: content/doelen-organisatie.md
+  template: templates/doelen-organisatie.md
+  decks: [organisatie]
+  applies_when: always
+
+- id: visie
+  scope: organisatie
+  skill: discovery-visie
+  content: content/visie.md
+  template: templates/visie.md
+  decks: [organisatie]
+  applies_when: always
+
+- id: vervolgstappen-organisatie
+  scope: organisatie
+  skill: discovery-vervolgstappen-organisatie
+  content: content/vervolgstappen-organisatie.md
+  template: templates/vervolgstappen-organisatie.md
+  decks: [organisatie]
+  applies_when: always
+
+- id: doelen-eindgebruikers
+  scope: eindgebruikers
+  skill: discovery-doelen-eindgebruikers
+  content: content/doelen-eindgebruikers.md
+  template: templates/doelen-eindgebruikers.md
+  decks: [functioneel]
+  applies_when: always
+
+- id: event-storming
+  scope: eindgebruikers
+  skill: discovery-event-storming
+  content: content/event-storming.md
+  template: templates/event-storming.md
+  decks: [functioneel]
+  applies_when: "pad == event-storming"
+
+- id: gebruikers
+  scope: eindgebruikers
+  skill: discovery-gebruikers
+  content: content/gebruikers.md
+  template: templates/gebruikers.md
+  decks: [functioneel]
+  applies_when: "pad == functionele-invulling"
+
+- id: data
+  scope: eindgebruikers
+  skill: discovery-data
+  content: content/data.md
+  template: templates/data.md
+  decks: [functioneel]
+  applies_when: "pad == functionele-invulling"
+
+- id: proces
+  scope: eindgebruikers
+  skill: discovery-proces
+  content: content/proces.md
+  template: templates/proces.md
+  decks: [functioneel]
+  applies_when: "pad == functionele-invulling"
+
+- id: functionaliteiten
+  scope: eindgebruikers
+  skill: discovery-functionaliteiten
+  content: content/functionaliteiten.md
+  template: templates/functionaliteiten.md
+  decks: [functioneel]
+  applies_when: "pad == functionele-invulling"
+
+- id: rollen-rechten
+  scope: eindgebruikers
+  skill: discovery-rollen-rechten
+  content: content/rollen-rechten.md
+  template: templates/rollen-rechten.md
+  decks: [functioneel]
+  applies_when: "pad == functionele-invulling"
+
+- id: externe-toegang
+  scope: eindgebruikers
+  skill: discovery-externe-toegang
+  content: content/externe-toegang.md
+  template: templates/externe-toegang.md
+  decks: [functioneel]
+  applies_when: "pad == functionele-invulling"
+
+- id: vervolgstappen-functioneel
+  scope: eindgebruikers
+  skill: discovery-vervolgstappen-functioneel
+  content: content/vervolgstappen-functioneel.md
+  template: templates/vervolgstappen-functioneel.md
+  decks: [functioneel]
+  applies_when: always
+
+- id: context-diagram
+  scope: technisch
+  skill: discovery-context-diagram
+  content: content/context-diagram.md
+  template: templates/context-diagram.md
+  decks: [technisch]
+  applies_when: always
+
+- id: applicatie-architectuur-diagram
+  scope: technisch
+  skill: discovery-applicatie-architectuur-diagram
+  content: content/applicatie-architectuur-diagram.md
+  template: templates/applicatie-architectuur-diagram.md
+  decks: [technisch]
+  applies_when: always
+
+- id: data-architectuur
+  scope: technisch
+  skill: discovery-data-architectuur
+  content: content/data-architectuur.md
+  template: templates/data-architectuur.md
+  decks: [technisch]
+  applies_when: always
+
+- id: infrastructuur-diagram
+  scope: technisch
+  skill: discovery-infrastructuur-diagram
+  content: content/infrastructuur-diagram.md
+  template: templates/infrastructuur-diagram.md
+  decks: [technisch]
+  applies_when: always
+
+- id: nieuwe-plugins
+  scope: technisch
+  skill: discovery-nieuwe-plugins
+  content: content/nieuwe-plugins.md
+  template: templates/nieuwe-plugins.md
+  decks: [technisch]
+  applies_when: always
+
+- id: vervolgstappen-technisch
+  scope: technisch
+  skill: discovery-vervolgstappen-technisch
+  content: content/vervolgstappen-technisch.md
+  template: templates/vervolgstappen-technisch.md
+  decks: [technisch]
+  applies_when: always

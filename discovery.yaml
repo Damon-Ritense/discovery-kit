@@ -1,0 +1,34 @@
+# Discovery-gegevens voor deze repo.
+# Vul klant/bedrijfsproces pas in als de vertrouwelijkheidsbeslissing in docs/PLAN.md
+# ("Open", punt 2) genomen is — tot die tijd geen klantgevoelige gegevens in de repo.
+
+klant: "TODO (Damon)"
+bedrijfsproces: "TODO (Damon)"
+
+# event-storming | functionele-invulling
+pad: "TODO (Damon)"
+
+# status per onderwerp: nog-niet-gestart | in-behandeling | review | akkoord
+onderwerpen:
+  context: nog-niet-gestart
+  privacy-avg: nog-niet-gestart
+  werkwijze: nog-niet-gestart
+  strategische-observaties: nog-niet-gestart
+  doelen-organisatie: nog-niet-gestart
+  visie: nog-niet-gestart
+  vervolgstappen-organisatie: nog-niet-gestart
+  doelen-eindgebruikers: nog-niet-gestart
+  event-storming: nog-niet-gestart
+  gebruikers: nog-niet-gestart
+  data: nog-niet-gestart
+  proces: nog-niet-gestart
+  functionaliteiten: nog-niet-gestart
+  rollen-rechten: nog-niet-gestart
+  externe-toegang: nog-niet-gestart
+  vervolgstappen-functioneel: nog-niet-gestart
+  context-diagram: nog-niet-gestart
+  applicatie-architectuur-diagram: nog-niet-gestart
+  data-architectuur: nog-niet-gestart
+  infrastructuur-diagram: nog-niet-gestart
+  nieuwe-plugins: nog-niet-gestart
+  vervolgstappen-technisch: nog-niet-gestart

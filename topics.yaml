@@ -3,7 +3,8 @@
 #
 # scope: organisatie | eindgebruikers | technisch, of een lijst daarvan voor een gedeeld onderwerp.
 # decks: organisatie | functioneel | technisch
-# applies_when: always, of "pad == event-storming" / "pad == functionele-invulling"
+# applies_when: always, "pad == event-storming" of "nieuwe-technische-koppeling == ja" (velden uit discovery.yaml)
+# dod: verplicht | sterke-voorkeur — zie docs/definition-of-done.md
 
 - id: context
   scope: [organisatie, eindgebruikers]
@@ -12,6 +13,7 @@
   template: templates/context.md
   decks: [organisatie, functioneel]
   applies_when: always
+  dod: sterke-voorkeur
 
 - id: privacy-avg
   scope: [organisatie, eindgebruikers]
@@ -20,6 +22,7 @@
   template: templates/privacy-avg.md
   decks: [organisatie, functioneel]
   applies_when: always
+  dod: verplicht
 
 - id: werkwijze
   scope: [organisatie, eindgebruikers]
@@ -28,6 +31,7 @@
   template: templates/werkwijze.md
   decks: [organisatie, functioneel]
   applies_when: always
+  dod: sterke-voorkeur
 
 - id: strategische-observaties
   scope: organisatie
@@ -36,6 +40,7 @@
   template: templates/strategische-observaties.md
   decks: [organisatie]
   applies_when: always
+  dod: sterke-voorkeur
 
 - id: doelen-organisatie
   scope: organisatie
@@ -44,6 +49,7 @@
   template: templates/doelen-organisatie.md
   decks: [organisatie]
   applies_when: always
+  dod: sterke-voorkeur
 
 - id: visie
   scope: organisatie
@@ -52,14 +58,7 @@
   template: templates/visie.md
   decks: [organisatie]
   applies_when: always
-
-- id: vervolgstappen-organisatie
-  scope: organisatie
-  skill: discovery-vervolgstappen-organisatie
-  content: content/vervolgstappen-organisatie.md
-  template: templates/vervolgstappen-organisatie.md
-  decks: [organisatie]
-  applies_when: always
+  dod: sterke-voorkeur
 
 - id: doelen-eindgebruikers
   scope: eindgebruikers
@@ -68,6 +67,7 @@
   template: templates/doelen-eindgebruikers.md
   decks: [functioneel]
   applies_when: always
+  dod: sterke-voorkeur
 
 - id: event-storming
   scope: eindgebruikers
@@ -76,6 +76,7 @@
   template: templates/event-storming.md
   decks: [functioneel]
   applies_when: "pad == event-storming"
+  dod: sterke-voorkeur
 
 - id: gebruikers
   scope: eindgebruikers
@@ -83,7 +84,8 @@
   content: content/gebruikers.md
   template: templates/gebruikers.md
   decks: [functioneel]
-  applies_when: "pad == functionele-invulling"
+  applies_when: always
+  dod: sterke-voorkeur
 
 - id: data
   scope: eindgebruikers
@@ -91,7 +93,8 @@
   content: content/data.md
   template: templates/data.md
   decks: [functioneel]
-  applies_when: "pad == functionele-invulling"
+  applies_when: always
+  dod: sterke-voorkeur
 
 - id: proces
   scope: eindgebruikers
@@ -99,7 +102,8 @@
   content: content/proces.md
   template: templates/proces.md
   decks: [functioneel]
-  applies_when: "pad == functionele-invulling"
+  applies_when: always
+  dod: sterke-voorkeur
 
 - id: functionaliteiten
   scope: eindgebruikers
@@ -107,7 +111,8 @@
   content: content/functionaliteiten.md
   template: templates/functionaliteiten.md
   decks: [functioneel]
-  applies_when: "pad == functionele-invulling"
+  applies_when: always
+  dod: sterke-voorkeur
 
 - id: rollen-rechten
   scope: eindgebruikers
@@ -115,7 +120,8 @@
   content: content/rollen-rechten.md
   template: templates/rollen-rechten.md
   decks: [functioneel]
-  applies_when: "pad == functionele-invulling"
+  applies_when: always
+  dod: sterke-voorkeur
 
 - id: externe-toegang
   scope: eindgebruikers
@@ -123,15 +129,8 @@
   content: content/externe-toegang.md
   template: templates/externe-toegang.md
   decks: [functioneel]
-  applies_when: "pad == functionele-invulling"
-
-- id: vervolgstappen-functioneel
-  scope: eindgebruikers
-  skill: discovery-vervolgstappen-functioneel
-  content: content/vervolgstappen-functioneel.md
-  template: templates/vervolgstappen-functioneel.md
-  decks: [functioneel]
   applies_when: always
+  dod: sterke-voorkeur
 
 - id: context-diagram
   scope: technisch
@@ -139,7 +138,8 @@
   content: content/context-diagram.md
   template: templates/context-diagram.md
   decks: [technisch]
-  applies_when: always
+  applies_when: "nieuwe-technische-koppeling == ja"
+  dod: sterke-voorkeur
 
 - id: applicatie-architectuur-diagram
   scope: technisch
@@ -147,7 +147,8 @@
   content: content/applicatie-architectuur-diagram.md
   template: templates/applicatie-architectuur-diagram.md
   decks: [technisch]
-  applies_when: always
+  applies_when: "nieuwe-technische-koppeling == ja"
+  dod: sterke-voorkeur
 
 - id: data-architectuur
   scope: technisch
@@ -155,7 +156,8 @@
   content: content/data-architectuur.md
   template: templates/data-architectuur.md
   decks: [technisch]
-  applies_when: always
+  applies_when: "nieuwe-technische-koppeling == ja"
+  dod: sterke-voorkeur
 
 - id: infrastructuur-diagram
   scope: technisch
@@ -163,7 +165,8 @@
   content: content/infrastructuur-diagram.md
   template: templates/infrastructuur-diagram.md
   decks: [technisch]
-  applies_when: always
+  applies_when: "nieuwe-technische-koppeling == ja"
+  dod: sterke-voorkeur
 
 - id: nieuwe-plugins
   scope: technisch
@@ -171,12 +174,14 @@
   content: content/nieuwe-plugins.md
   template: templates/nieuwe-plugins.md
   decks: [technisch]
-  applies_when: always
+  applies_when: "nieuwe-technische-koppeling == ja"
+  dod: sterke-voorkeur
 
-- id: vervolgstappen-technisch
+- id: beheer
   scope: technisch
-  skill: discovery-vervolgstappen-technisch
-  content: content/vervolgstappen-technisch.md
-  template: templates/vervolgstappen-technisch.md
+  skill: discovery-beheer
+  content: content/beheer.md
+  template: templates/beheer.md
   decks: [technisch]
   applies_when: always
+  dod: verplicht

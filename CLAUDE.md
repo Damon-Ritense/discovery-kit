@@ -1,7 +1,7 @@
 # Discovery-template — werkafspraken
 
 Dit is het templaterepo waaruit per discovery een eigen repo wordt aangemaakt.
-De repo is de bron van waarheid voor de inhoud van een discovery; de PowerPoint-decks zijn een weergave daarvan.
+De repo is de bron van waarheid voor de inhoud van een discovery. De PowerPoint-decks dienen als voorbeeld; optioneel wordt later een deck uit de repo gegenereerd.
 
 Plan, beslissingen en open punten: @docs/PLAN.md
 Onderwerpen per deck (lees bij behoefte): docs/deck-structuur.md
@@ -18,7 +18,7 @@ Onderwerpen per deck (lees bij behoefte): docs/deck-structuur.md
 2. Schrijf niets naar `content/` zonder een review-uitkomst én expliciet akkoord van Damon in dezelfde sessie.
 3. Zijn er open beslissingen in `docs/PLAN.md` onder "Open", vraag ze dan voordat je erop vooruitloopt.
 4. Eén stap tegelijk. Begin in plan mode, stel voor wat er verandert, bouw pas na akkoord.
-5. Zet geen persoonsgegevens of klantgevoelige gegevens in de repo zolang de beslissing over vertrouwelijkheid open staat.
+5. Klantgegevens mogen in een discovery-repo (privé, beperkte toegang). In dit templaterepo zelf komen geen klantgegevens. Een discovery-repo wordt altijd privé aangemaakt.
 6. Werk na elke afgeronde stap de status in `docs/PLAN.md` bij.
 
 ## Conventies
@@ -29,4 +29,6 @@ Onderwerpen per deck (lees bij behoefte): docs/deck-structuur.md
 - Elke skill-beschrijving bevat een regel "gebruik niet voor ..." om verwarring tussen aangrenzende onderwerpen te voorkomen.
 - Reviewformaat voor alle onderwerp-skills: per criterium pass / twijfel / fail, een letterlijk citaat uit de input, en terugvragen bij gaten. Een review vult nooit zelf aan.
 - Scope per onderwerp: `organisatie`, `eindgebruikers` of `technisch`. Het onderscheid tussen organisatie- en eindgebruikersdoelen is wezenlijk; behandel ze nooit als hetzelfde onderwerp.
-- Het gekozen pad (Event Storming óf Functionele invulling) staat in `discovery.yaml`; onderwerpen van het andere pad zijn niet actief.
+- Het gekozen pad (Event Storming of Functionele invulling) staat in `discovery.yaml`. Het bepaalt hoe deel 2 wordt ingevuld, niet welke onderwerpen gelden; alleen `event-storming` is pad-afhankelijk.
+- Welke onderwerpen verplicht zijn of sterke voorkeur hebben: `docs/definition-of-done.md` en het veld `dod` in `topics.yaml`.
+- De decks in `docs/bron/` zijn voorbeeld en referentie, niet de manier om het eindresultaat in te vullen.

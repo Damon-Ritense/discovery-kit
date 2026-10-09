@@ -1,14 +1,28 @@
 # Discovery-gegevens voor deze repo.
-# Vul klant/bedrijfsproces pas in als de vertrouwelijkheidsbeslissing in docs/PLAN.md
-# ("Open", punt 2) genomen is — tot die tijd geen klantgevoelige gegevens in de repo.
+# Vul klant, bedrijfsproces, nieuwe-klant, pad en nieuwe-technische-koppeling in bij het aanmaken van een discovery-repo.
+# In het templaterepo zelf blijven dit TODO's (geen klantgegevens in de template).
 
 klant: "TODO (Damon)"
 bedrijfsproces: "TODO (Damon)"
 
+# ja | nee — ja: nieuwe klant, de GDPR-checklist in privacy-avg wordt ingevuld.
+# nee: bestaande klant met bestaande afspraken, privacy-avg verwijst naar de bestaande privacyovereenkomst.
+nieuwe-klant: "TODO (Damon)"
+
 # event-storming | functionele-invulling
+# Bepaalt hoe deel 2 (functioneel) wordt ingevuld, niet welke onderwerpen gelden.
+# Alleen het onderwerp event-storming hangt hiervan af.
 pad: "TODO (Damon)"
 
-# status per onderwerp: nog-niet-gestart | in-behandeling | review | akkoord
+# ja | nee — ja bij een nieuwe technische koppeling: dan gelden de technische onderwerpen.
+# nee bij een bestaande omgeving waarin niets verandert: dan geldt van deel 3 alleen beheer.
+nieuwe-technische-koppeling: "TODO (Damon)"
+
+# status per onderwerp: nog-niet-gestart | in-behandeling | review | akkoord | overruled
+# Bij overruled (alleen voor dod: sterke-voorkeur, zie docs/definition-of-done.md) een reden vastleggen:
+#   <id>:
+#     status: overruled
+#     reden: "..."
 onderwerpen:
   context: nog-niet-gestart
   privacy-avg: nog-niet-gestart
@@ -16,7 +30,6 @@ onderwerpen:
   strategische-observaties: nog-niet-gestart
   doelen-organisatie: nog-niet-gestart
   visie: nog-niet-gestart
-  vervolgstappen-organisatie: nog-niet-gestart
   doelen-eindgebruikers: nog-niet-gestart
   event-storming: nog-niet-gestart
   gebruikers: nog-niet-gestart
@@ -25,10 +38,9 @@ onderwerpen:
   functionaliteiten: nog-niet-gestart
   rollen-rechten: nog-niet-gestart
   externe-toegang: nog-niet-gestart
-  vervolgstappen-functioneel: nog-niet-gestart
   context-diagram: nog-niet-gestart
   applicatie-architectuur-diagram: nog-niet-gestart
   data-architectuur: nog-niet-gestart
   infrastructuur-diagram: nog-niet-gestart
   nieuwe-plugins: nog-niet-gestart
-  vervolgstappen-technisch: nog-niet-gestart
+  beheer: nog-niet-gestart

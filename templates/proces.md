@@ -1,19 +1,20 @@
 # Proces
 
-<!-- Template voor content/proces.md. Pad: functionele-invulling. Structuur: docs/deck-structuur.md. -->
+<!-- Template voor content/proces.md. Structuur: docs/deck-structuur.md.
+     Voorbeelden van gebeurtenissen: .claude/skills/discovery-proces/references/deck-voorbeeld.md -->
 
 ## Procesmodel huidig
 
-TODO (Damon)
+Het (BPMN-)procesmodel van de huidige situatie, zoals aangeleverd, of een verwijzing ernaar (bv. in `diagrams/`):
 
 ## Procesmodel gewenst
 
-TODO (Damon)
+Link naar Valtimo Designer, of de uitwerking van de gewenste procesflow:
 
 ## Gebeurtenissen
 
-TODO (Damon)
+Gebeurtenissen die zich tijdens de behandeling van een zaak kunnen voordoen en direct om actie vragen.
 
-## Uitkomst (product/dienst)
-
-TODO (Damon)
+| Gebeurtenis | Intern/extern | Wie | Actie |
+|---|---|---|---|
+| | | | |

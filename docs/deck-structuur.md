@@ -34,8 +34,8 @@ Het pad (Event Storming of Functionele invulling) bepaalt hoe hoofdstuk 3 wordt 
 | 03A Event Storming (alleen bij pad Event Storming) | Waarom, de 8 kaarttypen, uitwerking van een event (IST/SOLL, pijnpunt, uitdaging) | `event-storming` | eindgebruikers |
 | 03B Functionele invulling (altijd; bij Event Storming gevuld vanuit de uitkomst) | Gebruikers: samenhang van een bedrijfsproces, gebruikersprofielen | `gebruikers` | eindgebruikers |
 | | Data: verloop (verzoek, zaak, resultaat), entiteiten | `data` | eindgebruikers |
-| | Proces: procesmodel huidig/gewenst, gebeurtenissen, uitkomst (product/dienst) | `proces` | eindgebruikers |
-| | Functionaliteiten: prioritering (risico/waarde), standaard, nieuwe | `functionaliteiten` | eindgebruikers |
+| | Proces: procesmodel huidig/gewenst, gebeurtenissen | `proces` | eindgebruikers |
+| | Functionaliteiten: standaard en nieuwe, met business waarde, inschatting en (nieuw) type | `functionaliteiten` | eindgebruikers |
 | | Rollen & rechten | `rollen-rechten` | eindgebruikers |
 | | Toegang tot zaak voor externe gebruikers | `externe-toegang` | eindgebruikers |
 | (einde hoofdstuk 3) | Privacy & AVG (zie deck 1) | `privacy-avg` | eindgebruikers |
@@ -62,5 +62,5 @@ Herzien op basis van `Technische Discovery onderwerpen.docx`: `hosting`, `compon
 
 1. ~~**Gedeelde onderwerpen.**~~ Besloten (fase 2): `context`, `privacy-avg` en `werkwijze` zijn elk één gedeeld onderwerp (scope: organisatie + eindgebruikers). `vervolgstappen` is later (fase 1) vervallen als onderwerp en vervangen door `status.md`.
 2. **Voorbeeld in het functionele deck.** De voorbeeldslide bij "Business doelen" toont doelen als "Verbeteren digitale dienstverlening" en "Efficiëntie interne processen". Die lezen als doelen op organisatieniveau. Moet die slide worden aangepast naar eindgebruikersniveau?
-3. **Overlap `nieuwe-plugins` en `functionaliteiten`.** De technische tabel bouwt voort op de nieuwe functionaliteiten uit de functionele discovery. Is dat één keten (en dus een traceerbaarheidseis voor de consistentie-skill) of twee losse onderwerpen?
+3. ~~**Overlap `nieuwe-plugins` en `functionaliteiten`.**~~ Besloten: twee aparte onderwerpen. Een plug-in is nodig om te koppelen met een ander systeem (technisch uitgewerkt in `nieuwe-plugins`). Een nieuwe functionaliteit kan inhouden dat Valtimo/GZAC als product wordt aangepast; dat vereist geen plug-in. Koppelingen staan in `functionaliteiten` kort als functionele behoefte (type "plug-in") en worden in `nieuwe-plugins` technisch uitgewerkt.
 4. ~~**Samenvoegen.**~~ Besloten (fase 2): `rollen-rechten` en `externe-toegang` blijven apart.

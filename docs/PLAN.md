@@ -100,6 +100,29 @@ Pas bouwen als meerdere onderwerpen bestaan.
 | 8 | Repo als template markeren, privé-zijn borgen (Actions-check of org-instelling die publieke repos blokkeert), pilot op een echte discovery, evaluatie | [ ] |
 | 9 | Optioneel: decks genereren uit de repo-content | [ ] |
 
+### Status per onderwerp
+
+Werkwijze per onderwerp: template → kennis (Damon) → voorbeelden (concept door Claude, akkoord Damon) → skill bouwen → testen.
+
+| Onderwerp | Deck | Status |
+|---|---|---|
+| `context` | organisatie, functioneel | gebouwd, niet getest |
+| `privacy-avg` | organisatie, functioneel | gebouwd, niet getest |
+| `werkwijze` | organisatie, functioneel | gebouwd, niet getest |
+| `strategische-observaties` | organisatie | gebouwd, niet getest |
+| `doelen-organisatie` | organisatie | gebouwd, niet getest |
+| `visie` | organisatie | gebouwd, niet getest |
+| `doelen-eindgebruikers` | functioneel | gebouwd, niet getest |
+| `gebruikers` | functioneel | gebouwd, niet getest |
+| `data` | functioneel | gebouwd, niet getest |
+| `proces` | functioneel | gebouwd, niet getest |
+| `functionaliteiten` | functioneel | gebouwd, niet getest |
+| `rollen-rechten` | functioneel | gebouwd, niet getest |
+| `externe-toegang` | functioneel | gebouwd, niet getest |
+| `event-storming` | functioneel | gebouwd, niet getest (voorbeelden in tekst; echte plaat volgt) |
+| `beheer` | technisch | skelet, kennis TODO (Damon) |
+| `context-diagram`, `applicatie-architectuur-diagram`, `data-architectuur`, `infrastructuur-diagram`, `nieuwe-plugins` | technisch | geparkeerd: wacht op context van Damon |
+
 ## Beslissingen
 
 ### Besloten
@@ -115,7 +138,7 @@ Geen.
 
 ### Te valideren
 
-Zie het kopje "Te valideren" in `docs/deck-structuur.md`. Beslist tijdens fase 2: gedeelde onderwerpen (per onderwerp verschillend, zie daar) en `rollen-rechten`/`externe-toegang` blijven apart. Nog open: het voorbeeld bij de business doelen in het functionele deck, overlap `nieuwe-plugins`/`functionaliteiten`.
+Zie het kopje "Te valideren" in `docs/deck-structuur.md`. Beslist tijdens fase 2: gedeelde onderwerpen (per onderwerp verschillend, zie daar) en `rollen-rechten`/`externe-toegang` blijven apart. Ook besloten: `nieuwe-plugins` en `functionaliteiten` zijn aparte onderwerpen (zie daar). Nog open: het voorbeeld bij de business doelen in het functionele deck.
 
 ## Nieuwe discovery-repo aanmaken
 

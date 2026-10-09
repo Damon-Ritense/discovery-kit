@@ -1,15 +1,23 @@
 # Functionaliteiten
 
-<!-- Template voor content/functionaliteiten.md. Pad: functionele-invulling. Structuur: docs/deck-structuur.md. -->
+<!-- Template voor content/functionaliteiten.md. Structuur: docs/deck-structuur.md.
+     Business waarde: must have / should have / could have / won't have.
+     Inschatting: S / M / L / XL.
+     Type (nieuw): plug-in (koppeling met een ander systeem, technisch uitgewerkt in nieuwe-plugins),
+     productaanpassing (Valtimo/GZAC zelf aanpassen) of configuratie. -->
 
 ## Standaard functionaliteiten
 
-TODO (Damon)
+Functionaliteiten die met de standaard van Valtimo/GZAC en configuratie te realiseren zijn.
+
+| Functionaliteit | Omschrijving | Business waarde | Inschatting |
+|---|---|---|---|
+| | | | |
 
 ## Nieuwe functionaliteiten
 
-TODO (Damon)
+Functionaliteiten die nog niet standaard in Valtimo/GZAC zitten.
 
-## Prioritering (risico/waarde)
-
-TODO (Damon)
+| Functionaliteit | Omschrijving | Business waarde | Type | Inschatting |
+|---|---|---|---|---|
+| | | | | |

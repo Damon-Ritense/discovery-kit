@@ -1,11 +1,14 @@
 # Rollen & rechten
 
-<!-- Template voor content/rollen-rechten.md. Pad: functionele-invulling. Structuur: docs/deck-structuur.md. -->
+<!-- Template voor content/rollen-rechten.md. Structuur: docs/deck-structuur.md.
+     Toegang tot Valtimo/GZAC wordt uitgewerkt met Policy Based Access Control (PBAC). Eén blok per rol.
+     Voorbeeld: .claude/skills/discovery-rollen-rechten/references/deck-voorbeeld.md -->
 
 ## Rollen
 
-TODO (Damon)
+### <Rol>
 
-## Rechten
+**Toegang:** (bv. via klantportaal / in GZAC)
 
-TODO (Damon)
+**Rechten:**
+-

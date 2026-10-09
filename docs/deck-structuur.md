@@ -33,7 +33,7 @@ Het pad (Event Storming of Functionele invulling) bepaalt hoe hoofdstuk 3 wordt 
 | | Business doelen (zelfde 3-stappenlogica + voorbeeld met termijn en meetwijze) | `doelen-eindgebruikers` | eindgebruikers |
 | 03A Event Storming (alleen bij pad Event Storming) | Waarom, de 8 kaarttypen, uitwerking van een event (IST/SOLL, pijnpunt, uitdaging) | `event-storming` | eindgebruikers |
 | 03B Functionele invulling (altijd; bij Event Storming gevuld vanuit de uitkomst) | Gebruikers: samenhang van een bedrijfsproces, gebruikersprofielen | `gebruikers` | eindgebruikers |
-| | Data: verloop, entiteiten, zaakdossiers | `data` | eindgebruikers |
+| | Data: verloop (verzoek, zaak, resultaat), entiteiten | `data` | eindgebruikers |
 | | Proces: procesmodel huidig/gewenst, gebeurtenissen, uitkomst (product/dienst) | `proces` | eindgebruikers |
 | | Functionaliteiten: prioritering (risico/waarde), standaard, nieuwe | `functionaliteiten` | eindgebruikers |
 | | Rollen & rechten | `rollen-rechten` | eindgebruikers |

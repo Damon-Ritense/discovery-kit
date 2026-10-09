@@ -1,11 +1,15 @@
 # Gebruikers
 
-<!-- Template voor content/gebruikers.md. Pad: functionele-invulling. Structuur: docs/deck-structuur.md. -->
-
-## Samenhang van een bedrijfsproces
-
-TODO (Damon)
+<!-- Template voor content/gebruikers.md. Structuur: docs/deck-structuur.md.
+     Eén blok per gebruikersprofiel. Uitleg over de samenhang van een bedrijfsproces:
+     .claude/skills/discovery-gebruikers/references/samenhang.md -->
 
 ## Gebruikersprofielen
 
-TODO (Damon)
+### <Profiel>
+
+**Taken:**
+
+**Pijnpunten:**
+
+**Verwachte voordelen:**

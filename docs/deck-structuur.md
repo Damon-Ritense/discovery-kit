@@ -61,6 +61,6 @@ Herzien op basis van `Technische Discovery onderwerpen.docx`: `hosting`, `compon
 ## Te valideren (door Damon)
 
 1. ~~**Gedeelde onderwerpen.**~~ Besloten (fase 2): `context`, `privacy-avg` en `werkwijze` zijn elk één gedeeld onderwerp (scope: organisatie + eindgebruikers). `vervolgstappen` is later (fase 1) vervallen als onderwerp en vervangen door `status.md`.
-2. **Voorbeeld in het functionele deck.** De voorbeeldslide bij "Business doelen" toont doelen als "Verbeteren digitale dienstverlening" en "Efficiëntie interne processen". Die lezen als doelen op organisatieniveau. Moet die slide worden aangepast naar eindgebruikersniveau?
+2. ~~**Voorbeeld in het functionele deck.**~~ Besloten: geen actie. De decks zijn voorbeeld en referentie; de voorbeeldslide bij "Business doelen" wordt niet aangepast.
 3. ~~**Overlap `nieuwe-plugins` en `functionaliteiten`.**~~ Besloten: twee aparte onderwerpen. Een plug-in is nodig om te koppelen met een ander systeem (technisch uitgewerkt in `nieuwe-plugins`). Een nieuwe functionaliteit kan inhouden dat Valtimo/GZAC als product wordt aangepast; dat vereist geen plug-in. Koppelingen staan in `functionaliteiten` kort als functionele behoefte (type "plug-in") en worden in `nieuwe-plugins` technisch uitgewerkt.
 4. ~~**Samenvoegen.**~~ Besloten (fase 2): `rollen-rechten` en `externe-toegang` blijven apart.

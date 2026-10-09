@@ -90,7 +90,7 @@ Pas bouwen als meerdere onderwerpen bestaan.
 | # | Fase | Status |
 |---|---|---|
 | 0 | Beslissingen uit "Open" nemen | [x] |
-| 1 | Bronmateriaal verzamelen (decks, Definition of Done, voorbeelden) | [ ] decks en DoD binnen; voorbeelden open |
+| 1 | Bronmateriaal verzamelen (decks, Definition of Done, voorbeelden) | [ ] binnen: decks, DoD, GDPR-checklist, voorbeelden per gebouwd onderwerp. Open: echte event storming-plaat, bronmateriaal beheer, context technisch deel |
 | 2 | Skelet: mappen, `discovery.yaml`, `topics.yaml`, templates per onderwerp | [x] |
 | 3 | Slice 1: `doelen-organisatie` (review-skill + write-skill, getest) | [ ] |
 | 4 | Slice 2: `doelen-eindgebruikers` | [ ] |
@@ -138,7 +138,7 @@ Geen.
 
 ### Te valideren
 
-Zie het kopje "Te valideren" in `docs/deck-structuur.md`. Beslist tijdens fase 2: gedeelde onderwerpen (per onderwerp verschillend, zie daar) en `rollen-rechten`/`externe-toegang` blijven apart. Ook besloten: `nieuwe-plugins` en `functionaliteiten` zijn aparte onderwerpen (zie daar). Nog open: het voorbeeld bij de business doelen in het functionele deck.
+Zie het kopje "Te valideren" in `docs/deck-structuur.md`. Beslist tijdens fase 2: gedeelde onderwerpen (per onderwerp verschillend, zie daar) en `rollen-rechten`/`externe-toegang` blijven apart. Ook besloten: `nieuwe-plugins` en `functionaliteiten` zijn aparte onderwerpen (zie daar). Ook besloten: de voorbeeldslide bij de business doelen in het functionele deck wordt niet aangepast. Er staan geen punten meer open.
 
 ## Nieuwe discovery-repo aanmaken
 
